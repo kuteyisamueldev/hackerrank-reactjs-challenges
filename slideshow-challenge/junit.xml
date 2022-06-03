@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="1" errors="0" time="0.644">
+  <testsuite name="Catalog Viewer" errors="0" failures="1" skipped="0" timestamp="2022-05-31T18:41:33" time="0.437" tests="8">
+    <testcase classname="Catalog Viewer clicking on any catalog thumbnail should show the appropriate image" name="Catalog Viewer clicking on any catalog thumbnail should show the appropriate image" time="0.028">
+    </testcase>
+    <testcase classname="Catalog Viewer clicking on the previous button should show the previous image" name="Catalog Viewer clicking on the previous button should show the previous image" time="0.006">
+    </testcase>
+    <testcase classname="Catalog Viewer clicking on the next button should show the next image" name="Catalog Viewer clicking on the next button should show the next image" time="0.006">
+    </testcase>
+    <testcase classname="Catalog Viewer clicking on the previous button when on the first item should show the last image" name="Catalog Viewer clicking on the previous button when on the first item should show the last image" time="0.006">
+    </testcase>
+    <testcase classname="Catalog Viewer clicking on the next button when on the last item should show the first image" name="Catalog Viewer clicking on the next button when on the last item should show the first image" time="0.004">
+    </testcase>
+    <testcase classname="Catalog Viewer should change the image every 3 seconds when slide show checked" name="Catalog Viewer should change the image every 3 seconds when slide show checked" time="0.006">
+      <failure>Error: expect(received).toContain(expected) // indexOf
+
+Expected substring: &quot;pink-light-candle.jpeg&quot;
+Received string:    &quot;http://localhost/white-light-candle.jpg&quot;
+    at Object.&lt;anonymous&gt; (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/src/App.test.js:100:24)
+    at Promise.then.completed (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/samuelkuteyi/hackerrank-remotebase-react-test/challenge-2/3395ed0b-149b-49c3-ab81-04cd42b702c5/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Catalog Viewer should have user interaction like before, when slide show checked" name="Catalog Viewer should have user interaction like before, when slide show checked" time="0.006">
+    </testcase>
+    <testcase classname="Catalog Viewer should stop changing the image every 3 seconds when slide show unchecked" name="Catalog Viewer should stop changing the image every 3 seconds when slide show unchecked" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>
